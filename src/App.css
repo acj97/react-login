@@ -1,5 +1,19 @@
-.App {
-  text-align: center;
+.Login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.Code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
 }
 
 .App-logo {
@@ -26,6 +40,42 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.btnToggle {
+  color: #56b08e;
+  background-color: white;
+  border: 1px solid #56b08e;
+}
+
+.btnToggle:hover{
+  color: white;
+  background-color: #56b08e;
+  border: 1px solid #56b08e;
+}
+
+.btnToggle:active:focus:hover:target {
+  color: white;
+  background-color: #56b08e;
+  border: 1px solid #56b08e;
+}
+
+.btnSubmit {
+  color: white;
+  background-color: #56b08e;
+  border: 1px solid #56b08e;
+}
+
+.btnSubmit:hover {
+  background-color: #468c72;
+  border: 1px solid #468c72;
+  box-shadow: none;
+}
+
+.btnSubmit:active:focus:target {
+  background-color: #468c72;
+  border: 1px solid #468c72;
+  box-shadow: none;
 }
 
 @keyframes App-logo-spin {
